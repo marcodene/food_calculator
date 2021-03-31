@@ -1,0 +1,14 @@
+/* -- VARIABLES --*/
+:root{
+    --black: #000000;
+    --white: #ffffff;
+    --color3: #FBBC04;
+
+    --font: 'Source Sans Pro', sans-serif;
+    }
+
+body{
+    background-color: var(--color3);
+    font-family: var(--font);
+}
+
