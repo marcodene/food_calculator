@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="css/register.css" />
     <link rel="stylesheet" href="css/default.css" />
-    <title>Login</title>
+    <title>Register</title>
   </head>
   <body>
     <div class="container">
@@ -38,8 +38,14 @@
             class="input-img"
             src="./img/hide-pass-icon.svg"
             alt="hide-password-icon"
+            onclick="showHideToggle()"
           />
-          <input class="input" placeholder="password" />
+          <input
+            type="password"
+            class="input"
+            placeholder="password"
+            id="password-input"
+          />
         </div>
 
         <button class="submit-btn">Register</button>
@@ -49,5 +55,7 @@
         >
       </div>
     </div>
+
+    <script src="./js/access.js"></script>
   </body>
 </html>

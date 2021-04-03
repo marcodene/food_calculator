@@ -63,6 +63,11 @@
   bottom: 0;
 }
 
+#show-hide {
+  right: 0;
+  margin: auto 8% auto 0;
+}
+
 .forgot-pass {
   margin-top: 0.3rem;
   font-size: 1.1rem;

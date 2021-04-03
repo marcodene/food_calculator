@@ -29,7 +29,19 @@
             src="./img/password-icon.svg"
             alt="password-icon"
           />
-          <input class="input" placeholder="password" />
+          <img
+            id="show-hide"
+            class="input-img"
+            src="./img/hide-pass-icon.svg"
+            alt="hide-password-icon"
+            onclick="showHideToggle()"
+          />
+          <input
+            type="password"
+            class="input"
+            placeholder="password"
+            id="password-input"
+          />
         </div>
         <a href="" class="forgot-pass"><h6>Forgot password?</h6></a>
 
@@ -51,5 +63,7 @@
         >
       </div>
     </div>
+
+    <script src="./js/access.js"></script>
   </body>
 </html>
