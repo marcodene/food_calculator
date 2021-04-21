@@ -86,19 +86,40 @@
     </div>
 
     <div class="main">
-      <h1>ciao ciao ciao</h1>
 
 
 
 
       
     </div>
-    <div class="calculate"></div>
 
-    <script id="template-esempio" type="text/html">
-      <h1>FOOD: {{title}}</h1>
-      <h2>{{description}}</h2>
-      </script>
+    
+
+      <script id="template-esempio" type="text/html">
+        <div class="cibo-box">
+          
+            <div class="col">
+              <form>
+                <input type="checkbox">
+              </form>
+            </div>
+            <div class="col">
+              <img
+                class="food-img" 
+                src="https://png.pngtree.com/png-clipart/20190828/ourmid/pngtree-cheese-pizza-png-image_1709797.jpg">
+            </div>
+            <div class="col info-food">
+              <h1 class="food-name">
+                <span >{{name}}</span>
+              </h1>
+              <p class="food-description">
+                <span >{{description}}</span>
+              </p>
+            </div>
+          
+          
+        </div>
+      </script>  
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/mustache.js/3.0.1/mustache.min.js"></script>
     <script src="js/index.js" type=""></script>
