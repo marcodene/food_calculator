@@ -1,4 +1,4 @@
-[
+const data = [
 {"name":"Egg","waterPrint":"200","description":"1 Egg","meal":"breakfast"},
 {"name":"Beef Hamburger","waterPrint":"2810","description":"200 g of meat with bread, cheddar, bacon and toppings","meal":"lunch"},
 {"name":"Coke","waterPrint":"124","description":"350 ml","meal":"lunch"},
@@ -57,3 +57,4 @@
 {"name":"Toast","waterPrint":"500","description":"1 medium toast","meal":"breakfast"}
 ]
 
+export default data
